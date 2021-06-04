@@ -41,7 +41,7 @@ function searchProducts() {
         // Filter data
         let result = json.filter((product) => {
           return article
-        });
+        }); 
         // Check if there are found results
         if (result.length > 0) {
           // Render items that matched

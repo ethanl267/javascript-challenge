@@ -2,9 +2,16 @@
  text-align: center;
 }
 
-#search{
+#searchdiv{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
+@media screen and (max-width:768px) {
+  #searchdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
